@@ -1,0 +1,73 @@
+@media only screen and (max-width: 599px) {
+    .myPhoenixLogo {
+        opacity: 0;
+    }
+}
+
+.container {
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userInfo {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.irn {
+    font-size: 11px;
+    color: black;
+}
+
+.iconBar {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.iconFormat {
+    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    font-size: 35px;
+}
+
+.iconText {
+    font-size: 14px;
+}
+
+.myPhoenixLogo {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.myPhoenixText {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+    position: relative;
+    top: 5px;
+}

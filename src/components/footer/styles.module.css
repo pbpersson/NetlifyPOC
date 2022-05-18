@@ -1,0 +1,114 @@
+@media only screen and (max-width: 599px) {
+    .resources {
+        padding-left: 10px;
+    }
+
+    .resourceList {
+        display: none;
+    }
+
+    .resourceTitle {
+        font-size: 17px;
+        padding: 15px 0;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .buttonBox {
+        padding: 12px 0 30px;
+    }
+
+    .myPhoenixLogo {
+        padding-left: 10px;
+    }
+
+    .footer {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .buttonBox {
+        justify-content: center;
+    }
+
+    .resourceTitle {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .myPhoenixLogo {
+        justify-content: center;
+    }
+
+    .footerText {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttonBox {
+        padding: 50px 0 75px;
+    }
+
+    .button {
+        margin: 0 23px;
+    }
+}
+
+.container {
+    background-color: #F2F3F3;
+    font-family: 'Roboto',
+        arial,
+        sans-serif !important;
+}
+
+.buttonBox {
+    font-size: 16px;
+}
+
+.arrow {
+    position: relative;
+    top: 7px;
+    fill: #DD3826;
+}
+
+.button {
+    color: black;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.resources {
+    font-size: 14px;
+    padding-bottom: 26px;
+}
+
+.resourceTitle {
+    font-weight: 600;
+}
+
+.myPhoenixLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.myPhoenixText {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+    position: relative;
+    top: 5px;
+}
+
+.footer {
+    padding: 20px 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerText {
+    font-size: 12px;
+}
